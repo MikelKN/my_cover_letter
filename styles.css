@@ -1,0 +1,166 @@
+body{
+  margin: 0;
+  text-align: center;  /*centers everuthing inside that doesnt have a width set*/
+  font-family: monospace;
+  color: #40514E;
+}
+
+hr {
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 4px;
+  margin: 100px auto;
+  width: 5%;
+}
+
+h1{
+  margin: 30px auto 20px auto; /*top left, bottom right*/
+  font-family: 'Sacramento', cursive;
+  font-size: 400%;
+  color: #66BFBF;
+}
+
+h2{
+font-family: 'Montserrat', sans-serif;
+color: #66BFBF;
+padding-bottom: 10px;
+}
+
+h3{
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+color: #11999E;
+}
+
+a{
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top_container{
+  /*margin: 0;*/
+  background-color: #E8F6EF;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.bottom_cloud{
+  position: absolute;
+  left : 250px;
+}
+.top_cloud{
+  position: absolute;
+  right: 350px;
+  top: 40px;
+}
+
+
+.skills{
+  margin-top: 50px;
+}
+
+.web{
+  font-style: italic;
+  font-size: 23px;
+  color: #66BFBF;
+
+  }
+  .intro{
+  width: 80%;
+  margin: auto;
+    }
+
+.middle_container{
+  margin: 100px 0;
+}
+
+
+.skill-row {
+  width: 850px;
+  margin:50px auto 50px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.skill-row2 {
+    width: 850px;
+    margin:50px auto 100px 250px;
+    text-align: right;
+
+}
+
+.profile{
+  width: 850px;
+  margin:10px auto 50px auto;
+  line-height: 2;
+}
+.my_resume:hover{
+  background-color: #66BFBF;
+}
+.code_img{
+  width: 22%;
+  float: left;
+  margin-right: 50px;
+}
+.hobby_img{
+  position: relative;
+  bottom : 50px;
+  width: 22%;
+  float: right;
+  margin-left: 50px;
+}
+
+.bottom_container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.contact_me{
+  margin: 40px auto 40px;
+  width: 40%;
+  line-height: 2;
+  text-align: center;
+}
+
+.footer_link{
+  color: #11999E;
+}
+
+.button {
+	box-shadow: 0 0 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:10px;
+	border:2px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Montserrat" , sans-serif ;
+	font-size:12px;
+	font-weight:bold;
+	padding:6px 20px;
+	text-decoration:none;
+	text-shadow:0 0 0 #5b6178;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 16px;
+  padding: 20px 0;
+}
