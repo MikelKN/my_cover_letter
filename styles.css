@@ -1,8 +1,16 @@
 body{
-  margin: 0;
   text-align: center;  /*centers everuthing inside that doesnt have a width set*/
   font-family: monospace;
   color: #40514E;
+  /* background-color: #E8F6EF; */
+}
+.contact{
+  background-color: #E8F6EF;
+  margin: auto;
+
+}
+p{
+  line-height: 2;
 }
 
 hr {
@@ -11,61 +19,72 @@ hr {
   border-top-style: dotted;
   border-color: grey;
   border-width: 4px;
-  margin: 100px auto;
+  margin: 70px auto;
+  width: 5%;
+}
+.last_hr{
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 4px;
+  /* position: relative; */
+  margin: 100px auto 50px 600px;
   width: 5%;
 }
 
 h1{
-  margin: 30px auto 20px auto; /*top left, bottom right*/
+  margin: 60px auto 0; /*top left, bottom right*/
   font-family: 'Sacramento', cursive;
-  font-size: 400%;
+  font-size: 350%;
   color: #66BFBF;
 }
 
 h2{
+margin: auto;
 font-family: 'Montserrat', sans-serif;
 color: #66BFBF;
-padding-bottom: 10px;
+padding-bottom: 0;
 }
 
 h3{
 font-family: 'Montserrat', sans-serif;
-font-size: 20px;
+font-size: 15px;
 color: #11999E;
 }
 
 a{
-  color: #11999E;
-  font-family: "Montserrat", sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #EAF6F6;
+  color: #66BFBF;
+  font-family: "Monospace", sans-serif;
+  /* margin: 10px 20px; */
+  /* text-decoration: none; */
 }
 
 .top_container{
   /*margin: 0;*/
   background-color: #E8F6EF;
   position: relative;
-  padding-top: 100px;
-
+  padding: 5px 0;
 }
 
+.top_content{
+  width: 70%;
+  margin:10px auto 20px auto;
+}
 .bottom_cloud{
   position: absolute;
   left : 250px;
+  top: 180px;
 }
 .top_cloud{
   position: absolute;
-  right: 350px;
-  top: 40px;
+  right: 270px;
+  top: 50px;
 }
 
 
 .skills{
-  margin-top: 50px;
+  margin:10px auto 50px auto;
 }
 
 .web{
@@ -75,59 +94,94 @@ a:hover {
 
   }
   .intro{
-  width: 80%;
+  width: 70%;
   margin: auto;
     }
 
 .middle_container{
-  margin: 100px 0;
+  padding-top: 25px;
+
+  background-color: #FFF9F9;
 }
 
 
 .skill-row {
-  width: 850px;
-  margin:50px auto 50px auto;
+  width: 70%;
+  /* margin:50px auto 50px auto; */
+  margin:20px auto 50px auto;
   text-align: left;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 .skill-row2 {
-    width: 850px;
-    margin:50px auto 100px 250px;
+    width: 70%;
+    /* margin:50px auto 100px 250px; */
+    margin:10px auto 50px auto;
     text-align: right;
-
 }
 
 .profile{
-  width: 850px;
-  margin:10px auto 50px auto;
   line-height: 2;
 }
+
+.my_pic{
+  height: 200px;
+  width: 200px;
+  border: 3px solid #66BFBF;
+  border-radius: 100px;
+ }
+
 .my_resume:hover{
-  background-color: #66BFBF;
+  background-color: #11999E;
+  color: white;
+}
+
+a:hover {
+  color: #11999E;
+  color: white;
 }
 .code_img{
-  width: 22%;
+  height: 150px;
+  width: 150px;
   float: left;
-  margin-right: 50px;
+  margin-right: 60px;
+  border: 3px solid #66BFBF;
+  border-radius: 100px;
 }
 .hobby_img{
   position: relative;
-  bottom : 50px;
-  width: 22%;
+  bottom : 40px;
+  height: 150px;
+  width: 150px;
   float: right;
-  margin-left: 50px;
+  margin-left: 60px;
+  /* margin: auto; */
+  border: 3px solid #66BFBF;
+  border-radius: 100px;
 }
 
 .bottom_container{
   background-color: #66BFBF;
-  padding: 50px 0 20px;
+  padding: 30px 0;
+  /* margin: auto; */
+  /* margin-top: 0px; */
+}
+
+.bottom_contact{
+  background-color: #66BFBF;
+  padding: 30px 0;
+  margin: 40px auto 0;
+  length: 60%;
+  /* margin: auto; */
+  /* margin-top: 0px; */
 }
 
 .contact_me{
-  margin: 40px auto 40px;
+  /* margin: 70px 40px 60px 40px; */
+  margin: 40px auto 0 375px;
   width: 40%;
-  line-height: 2;
+  /* line-height: 2; */
   text-align: center;
+
 }
 
 .footer_link{
@@ -146,9 +200,11 @@ a:hover {
 	font-family:"Montserrat" , sans-serif ;
 	font-size:12px;
 	font-weight:bold;
-	padding:6px 20px;
+	padding:6px 10px;
 	text-decoration:none;
 	text-shadow:0 0 0 #5b6178;
+  margin: 20px 70px;
+  /* align-items: center; */
 }
 .button:hover {
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
@@ -162,5 +218,5 @@ a:hover {
 .copyright{
   color: #EAF6F6;
   font-size: 16px;
-  padding: 20px 0;
+  padding: 20px auto;
 }
