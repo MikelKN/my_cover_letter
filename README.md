@@ -3,7 +3,7 @@ Intermediate HTML and CSS
 
 In this project, I use Basic knowledge of CSS and HTML to build my personal profile.  
 
-To preview the Project, Please clicck on the link -> https://mikelkn.github.io/web_design/
+To see the Project Design, Please click on the link -> https://mikelkn.github.io/web_design/
 ---------------------------------------------------------------
 # Project 2 Intermediate HTML and CSS: Building My Personal profile.
 
@@ -13,9 +13,9 @@ To preview the Project, Please clicck on the link -> https://mikelkn.github.io/w
 - [Overview](#overview)
   - [Links](#links)
 - [What I learned](#what-i-learned)
-  - Introductory CSS.
-  - Intermediate CSS.
-  - Introduction to Web Design.
+  - [Introductory CSS.](#introductory-css)
+  - [Intermediate CSS.](#intermediate-css)
+  - [Introduction to Web Design.](#introduction-to-web-design)
 - [Continued development](#continued-development)
 - [Useful resources](#useful-resources)
 - [Author](#author)
