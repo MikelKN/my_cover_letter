@@ -3,7 +3,7 @@ Intermediate HTML and CSS
 
 In this project, I use Basic knowledge of CSS and HTML to build my personal profile.  
 
-To see the Project Design, Please click on the link -> https://mikelkn.github.io/my_cover_letter/
+Project Design - Please click on the link -> https://mikelkn.github.io/my_cover_letter/
 ---------------------------------------------------------------
 # Project 2 Intermediate HTML and CSS: Building My Personal profile.
 
