@@ -2,13 +2,8 @@ body{
   text-align: center;  /*centers everuthing inside that doesnt have a width set*/
   font-family: monospace;
   color: #40514E;
-  /* background-color: #E8F6EF; */
 }
-.contact{
-  background-color: #E8F6EF;
-  margin: auto;
 
-}
 p{
   line-height: 2;
 }
@@ -20,16 +15,6 @@ hr {
   border-color: grey;
   border-width: 4px;
   margin: 70px auto;
-  width: 5%;
-}
-.last_hr{
-  background-color: white;
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 4px;
-  /* position: relative; */
-  margin: 100px auto 50px 600px;
   width: 5%;
 }
 
@@ -44,24 +29,40 @@ h2{
 margin: auto;
 font-family: 'Montserrat', sans-serif;
 color: #66BFBF;
-padding-bottom: 0;
+padding-bottom: 1px;
 }
 
 h3{
 font-family: 'Montserrat', sans-serif;
 font-size: 15px;
-color: #11999E;
+color: #11999E
 }
 
 a{
   color: #66BFBF;
-  font-family: "Monospace", sans-serif;
-  /* margin: 10px 20px; */
-  /* text-decoration: none; */
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 40px 20px;
+  text-decoration: none
+}
+
+.my_resume{
+  color: #66BFBF;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin: 2px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.contact_mikel:hover{
+  background-color: #A3E4DB;
+  color: #1A5F7A;
 }
 
 .top_container{
-  /*margin: 0;*/
   background-color: #E8F6EF;
   position: relative;
   padding: 5px 0;
@@ -71,6 +72,7 @@ a{
   width: 70%;
   margin:10px auto 20px auto;
 }
+
 .bottom_cloud{
   position: absolute;
   left : 250px;
@@ -82,44 +84,14 @@ a{
   top: 50px;
 }
 
-
-.skills{
-  margin:10px auto 50px auto;
-}
-
-.web{
-  font-style: italic;
-  font-size: 23px;
-  color: #66BFBF;
-
-  }
-  .intro{
-  width: 70%;
-  margin: auto;
-    }
-
 .middle_container{
-  padding-top: 25px;
-
+  /* padding: 30px auto; */
   background-color: #FFF9F9;
-}
-
-
-.skill-row {
-  width: 70%;
-  /* margin:50px auto 50px auto; */
-  margin:20px auto 50px auto;
-  text-align: left;
-  /* line-height: 1.5; */
-}
-.skill-row2 {
-    width: 70%;
-    /* margin:50px auto 100px 250px; */
-    margin:10px auto 50px auto;
-    text-align: right;
+  margin: auto;
 }
 
 .profile{
+  padding-top: 30px;
   line-height: 2;
 }
 
@@ -130,23 +102,45 @@ a{
   border-radius: 100px;
  }
 
-.my_resume:hover{
-  background-color: #11999E;
-  color: white;
+.intro{
+ width: 70%;
+ margin: auto;
+ }
+
+.skills{
+  margin:10px auto 50px auto;
 }
 
-a:hover {
-  color: #11999E;
-  color: white;
+.skill-row {
+  width: 70%;
+  /* margin:50px auto 50px auto; */
+  margin:20px auto 50px auto;
+  text-align: left;
+  /* line-height: 1.5; */
 }
+
+.web{
+  font-style: italic;
+  font-size: 23px;
+  color: #66BFBF;
+  }
+
 .code_img{
-  height: 150px;
-  width: 150px;
-  float: left;
-  margin-right: 60px;
-  border: 3px solid #66BFBF;
-  border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 60px;
+    border: 3px solid #66BFBF;
+    border-radius: 100px;
+  }
+
+.skill-row2 {
+    width: 70%;
+    /* margin:50px auto 100px 250px; */
+    margin:10px auto 50px auto;
+    text-align: right;
 }
+
 .hobby_img{
   position: relative;
   bottom : 40px;
@@ -159,11 +153,33 @@ a:hover {
   border-radius: 100px;
 }
 
+.last_hr{
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 4px;
+  /* position: relative; */
+  margin: 100px auto 50px 600px;
+  width: 5%;
+}
+
+.contact_me{
+  margin: 40px auto 0 425px;
+  width: 35%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.my_resume:hover{
+  background-color: #A3E4DB;
+  color: white;
+}
+
 .bottom_container{
   background-color: #66BFBF;
   padding: 30px 0;
-  /* margin: auto; */
-  /* margin-top: 0px; */
+  /* margin: 30px auto; */#66BFBF
 }
 
 .bottom_contact{
@@ -171,39 +187,26 @@ a:hover {
   padding: 30px 0;
   margin: 40px auto 0;
   length: 60%;
-  /* margin: auto; */
-  /* margin-top: 0px; */
-}
-
-.contact_me{
-  /* margin: 70px 40px 60px 40px; */
-  margin: 40px auto 0 375px;
-  width: 40%;
-  /* line-height: 2; */
-  text-align: center;
-
-}
-
-.footer_link{
-  color: #11999E;
 }
 
 .button {
 	box-shadow: 0 0 0 0 #f0f7fa;
 	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
 	background-color:#33bdef;
+  /* background-color:#66BFBF; */
 	border-radius:10px;
 	border:2px solid #057fd0;
+  /* border:2px solid #66BFBF; */
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:"Montserrat" , sans-serif ;
-	font-size:12px;
+	font-size:15px;
 	font-weight:bold;
-	padding:6px 10px;
+	padding:10px 20px;
 	text-decoration:none;
 	text-shadow:0 0 0 #5b6178;
-  margin: 20px 70px;
+  margin: 20px;
   /* align-items: center; */
 }
 .button:hover {
@@ -215,8 +218,17 @@ a:hover {
 	top:1px;
 }
 
+.footer_link{
+  color: #11999E;
+}
+
 .copyright{
   color: #EAF6F6;
   font-size: 16px;
-  padding: 20px auto;
+  padding: 40px auto;
+}
+
+.contact{
+  background-color: #E8F6EF;
+  margin: auto;
 }
